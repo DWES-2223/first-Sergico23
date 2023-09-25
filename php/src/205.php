@@ -2,23 +2,27 @@
 <html lang="es">
 
 <?php
-$quantitat = $_GET["quantitat"];
-$bitllets = [500, 200, 100, 50, 20, 10, 5];
-$monedes = [2, 1];
+$diners = $_GET["quantitat"];
+        
+if ($diners === null) {
 
-foreach ($bitllets as $bitllet) {
-    $quantitatBitllets = intval($quantitat / $bitllet);
-    if ($quantitatBitllets > 0) {
-        echo "$quantitatBitllets bitllet de $bitllet\n";
-        $quantitat %= $bitllet;
+    echo "Posa la quantitat a la variable quantitat pel QueryString";
+
+} else {
+    
+    $billets = array(500, 200, 100, 50, 20, 10, 5);
+    $monedas = array(2, 1);
+
+    foreach ($billets as $a) {
+        $num = intdiv($diners, $a);
+        echo "<p>" . $num . " bitllet de " . $a . "</p>";
+        $diners -= $num * $a;
     }
-}
 
-foreach ($monedes as $moneda) {
-    $quantitatMonedes = intval($quantitat / $moneda);
-    if ($quantitatMonedes > 0) {
-        echo "$quantitatMonedes moneda de $moneda\n";
-        $quantitat %= $moneda;
+    foreach ($monedas as $a) {
+        $num = intdiv($diners, $a);
+        echo "<p>" . $num . " moneda de " . $a . "</p>";
+        $diners -= $num * $a;
     }
 }
 ?>
