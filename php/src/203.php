@@ -8,6 +8,8 @@ $cognom2 = $_POST["cognom2"];
 $email = $_POST["email"];
 $any = $_POST["any"];
 $telefon = $_POST["telefon"];
+//extract ($_POST);
+
 ?>
 <head>
   <meta charset="utf-8">

@@ -210,14 +210,14 @@
  <body>
    <ul id="toolbar-filter">
      <li> <a href="#" title="Show all" onClick="showAllScenarios()">◯</a></li>
-     <li> <a href="#" title="Successful" onClick="toggleScenarios('scenarioSuccess', this.parentElement)"><strong>✔</strong> 3</a></li>
-     <li> <a href="#" title="Failed" onClick="toggleScenarios('scenarioFailed', this.parentElement)"><strong>✗</strong> 6</a></li>
+     <li> <a href="#" title="Successful" onClick="toggleScenarios('scenarioSuccess', this.parentElement)"><strong>✔</strong> 4</a></li>
+     <li> <a href="#" title="Failed" onClick="toggleScenarios('scenarioFailed', this.parentElement)"><strong>✗</strong> 5</a></li>
      <li> <a href="#" title="Skipped" onClick="toggleScenarios('scenarioSkipped', this.parentElement)"><strong>S</strong> 0</a></li>
      <li> <a href="#" title="Incomplete" onClick="toggleScenarios('scenarioIncomplete', this.parentElement)"><strong>I</strong> 0</a></li>
      <li> <a href="#" title="Useless" onClick="toggleScenarios('scenarioUseless', this.parentElement)"><strong>U</strong> 0</a></li>
    </ul>
  <div class="layout">
- <h1>Codeception Results <small><span style="color: #e74c3c">FAILED</span> (00:00.693)</small></h1>
+ <h1>Codeception Results <small><span style="color: #e74c3c">FAILED</span> (00:00.831)</small></h1>
 
 
 
@@ -229,7 +229,7 @@
 </tr>   <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('1', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try201 works test <span style="color: #34495e; font-size: 70%;">0.05s</span></p>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try201 works test <span style="color: #34495e; font-size: 70%;">0.04s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -305,7 +305,7 @@
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('3', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try203 works test <span style="color: #34495e; font-size: 70%;">0.04s</span></p>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try203 works test <span style="color: #34495e; font-size: 70%;">0.07s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
@@ -380,15 +380,15 @@
    </tr>
 
 
-   <tr class="scenarioRow scenarioFailed">
+   <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioFailed" onclick="showHide('4', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try204 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('4', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try204 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
     </td>
    </tr>
-   <tr class="scenarioRow scenarioFailed">
+   <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer4">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer4">
 
 
       <tr>
@@ -396,20 +396,29 @@
       </tr>
 
       <tr>
-       <td class="stepName failedStep">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Posa la teu edat actual a la variable edat pel QueryString&quot;</span></td>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Posa la teu edat actual a la variable edat pel QueryString&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/204.php?edat=50&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;40&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;60&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;2040&quot;</span></td>
       </tr>
 
 
-         <tr >
-    <td class="error">
-        Failed asserting that on page /204.php<br />
---> File not found. <br />
---> contains "Posa la teu edat actual a la variable edat pel QueryString".
-    </td>
-</tr>
-
          
-         <tr><td class='error'>See <a href='PhpBasicCest.try204WorksTest.fail.html' target='_blank'>HTML snapshot</a> of a failed page</td></tr>
+         
+         
      </table>
 
 
@@ -420,7 +429,7 @@
    <tr class="scenarioRow scenarioFailed">
     <td>
      <p class="scenarioFailed" onclick="showHide('5', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try205 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try205 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
@@ -457,7 +466,7 @@
    <tr class="scenarioRow scenarioFailed">
     <td>
      <p class="scenarioFailed" onclick="showHide('6', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try206 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try206 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
@@ -721,7 +730,7 @@
    <tr class="scenarioRow scenarioFailed">
     <td>
      <p class="scenarioFailed" onclick="showHide('14', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test241 concatenar <span style="color: #34495e; font-size: 70%;">0s</span></p>
+          <span class="quiet">FunctionsTest &raquo;</span> Test241 concatenar <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
@@ -748,7 +757,7 @@
    <tr class="scenarioRow scenarioFailed">
     <td>
      <p class="scenarioFailed" onclick="showHide('15', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test242 digits <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
+          <span class="quiet">FunctionsTest &raquo;</span> Test242 digits <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
@@ -915,11 +924,11 @@
       <table border="0">
        <tr>
         <td width="250" class="scenarioSuccess">Successful scenarios:</td>
-        <td class="scenarioSuccessValue"><strong>3</strong></td>
+        <td class="scenarioSuccessValue"><strong>4</strong></td>
        </tr>
        <tr>
         <td class="scenarioFailed">Failed scenarios:</td>
-        <td class="scenarioFailedValue"><strong>6</strong></td>
+        <td class="scenarioFailedValue"><strong>5</strong></td>
        </tr>
        <tr>
         <td class="scenarioSkipped">Skipped scenarios:</td>
