@@ -6,9 +6,9 @@
 </head>
 <body>
 <?php
-$array = [];
 $maxim = 0;
 $minim = 999;
+$array = [];
 $columna = 0;
 $fila = 0;
 
