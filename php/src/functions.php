@@ -47,5 +47,12 @@ function digitsN(int $num, int $post): int {
     return (int)$numStr[$post];
 }
 
+function llevaDarrere(int $num, int $cant): int {
+    return (int)substr((string)$num, 0, -$cant);
+}
 
+function llevaDavant(int $num, int $cant): int {
+    $numStr = (string)$num;
+    return (int)substr($numStr, $cant);
+}
 
