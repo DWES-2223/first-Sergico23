@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-
 $persona1 = [ 'nombre' => 'Sergi', 'altura' => 180, 'email' => 'sergicol@gmail.com' ];
 $persona2 = [ 'nombre' => 'Alejandro', 'altura' => 183, 'email' => 'ponsi@gmail.com'];
 $persona3 = [ 'nombre' => 'Maria', 'altura' => 168, 'email' => 'marieta@gmail.com'];
