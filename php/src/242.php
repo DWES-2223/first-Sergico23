@@ -19,6 +19,6 @@ echo "El número $num amb $cantDigits dígits llevats per darrere és $nouNum.";
 echo '<br>';
 
 $num = 12345;
-$cantDigits = 2; // Nombre de dígits a llevar per davant
+$cantDigits = 2;
 $nouNum = llevaDavant($num, $cantDigits);
 echo "El número $num amb $cantDigits dígits llevats per davant és $nouNum.";

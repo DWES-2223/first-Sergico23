@@ -42,3 +42,10 @@ function digits(int $num): int{
     return strlen((string)$num);
 }
 
+function digitsN(int $num, int $post): int {
+    $numStr = (string)$num;
+    return (int)$numStr[$post];
+}
+
+
+
