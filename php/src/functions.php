@@ -37,7 +37,6 @@ function concatenar(...$paraules) {
     return implode(' ', $paraules);
 }
 
-
 function digits(int $num): int{
     return strlen((string)$num);
 }
@@ -56,3 +55,10 @@ function llevaDavant(int $num, int $cant): int {
     return (int)substr($numStr, $cant);
 }
 
+function peseta2euros($quantitat, $cotitzacio = 0.006){
+    return $quantitat * $cotitzacio;
+}
+
+function euro2pesetes($quantitat, $cotitzacio = 166.386){
+    return $quantitat * $cotitzacio;
+}
