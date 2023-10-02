@@ -1,6 +1,6 @@
 <!-- Capçalera de la taula -->
 <tr>
-    <th>Distància</th>
+    <th>Prova</th>
     <th>Marca</th>
     <th>Atleta</th>
     <th>Any de naixement</th>
@@ -11,12 +11,11 @@
 
 <!-- Cos de la taula -->
 <?php
-include 'atletes.php';
-
-foreach ($records as $distancia => $record) :
+include_once ('atletes.php');
+foreach ($records as $prova => $record) :
     ?>
     <tr>
-        <td><?= $distancia ?></td>
+        <td><?= $prova ?></td>
         <td><?= $record["marca"] ?></td>
         <td><?= $record["atleta"] ?></td>
         <td><?= $record["natalici"] ?></td>

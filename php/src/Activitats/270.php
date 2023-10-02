@@ -7,7 +7,9 @@
 <h1>Records d'Atletisme</h1>
 
 <table>
-    <?php include '270a.php'; ?>
+    <?php
+    include ('270a.php');
+    ?>
 </table>
 
 </body>
