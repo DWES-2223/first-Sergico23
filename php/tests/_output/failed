@@ -1,8 +1,3 @@
-tests/acceptance/BuclesCest.php:try224WorksTest
-tests/acceptance/BuclesCest.php:try225WorksTest
-tests/acceptance/BuclesCest.php:try226WorksTest
-tests/acceptance/BuclesCest.php:try227WorksTest
-tests/unit/FunctionsTest.php:test242Digits
-tests/unit/FunctionsTest.php:test243peseta2Euros
-tests/unit/FunctionsTest.php:test243euro2Pesetes
-tests/unit/FunctionsTest.php:test242DigitsN
+tests/acceptance/ExamenCest.php:try270WorksTest
+tests/acceptance/ExamenCest.php:try271WorksTest
+tests/acceptance/ExamenCest.php:try272WorksTest

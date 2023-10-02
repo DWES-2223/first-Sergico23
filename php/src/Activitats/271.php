@@ -6,7 +6,8 @@
 <body>
 <h1>Modificar Récord d'Atletisme</h1>
 <?php
-include 'atletes.php';
+include ('atletes.php');
+include ('271.html');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     extract($_POST);

@@ -1,6 +1,6 @@
+<table>
 <!-- Capçalera de la taula -->
-<tr>
-    <th>Prova</th>
+    <tr><th>Prova</th>
     <th>Marca</th>
     <th>Atleta</th>
     <th>Any de naixement</th>
@@ -14,8 +14,7 @@
 include_once ('atletes.php');
 foreach ($records as $prova => $record) :
     ?>
-    <tr>
-        <td><?= $prova ?></td>
+    <tr><td><?= $prova ?></td>
         <td><?= $record["marca"] ?></td>
         <td><?= $record["atleta"] ?></td>
         <td><?= $record["natalici"] ?></td>
@@ -24,3 +23,5 @@ foreach ($records as $prova => $record) :
         <td><?= $record["lloc"] ?></td>
     </tr>
 <?php endforeach; ?>
+
+</table>

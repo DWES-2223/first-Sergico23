@@ -5,13 +5,9 @@
 </head>
 <body>
 <h1>Records d'Atletisme</h1>
-
-<table>
     <?php
     include ('270a.php');
     ?>
-</table>
-
 </body>
 </html>
 
