@@ -41,4 +41,12 @@ class Persona8 {
         return $this->nombre . " " . $this->apellidos;
     }
 
+    public static function toHtml(Persona $p): string {
+        return '<p>Nom complet: ' . $p->getNombreCompleto() . '</p>';
+    }
+
+    public function __toString(): string {
+        return "Nom complet: " . $this->getNombreCompleto();
+    }
+
 }
